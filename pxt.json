@@ -1,8 +1,12 @@
 {
-    "name": "WAHAHAHHAHA",
+    "name": "Avery in Purple Land",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "controller": "*"
     },
     "files": [
         "main.blocks",
