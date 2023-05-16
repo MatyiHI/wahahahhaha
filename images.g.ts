@@ -273,63 +273,6 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 `;
-            case "image7":
-            case "CloudGuy":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . 1 1 1 1 . . . . . . 
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . 1 9 d d 9 1 . . . . . 
-. . . . . . 6 d d 6 . . . . . . 
-. . . . . 9 9 9 9 9 9 . . . . . 
-. . . . . 9 9 9 5 9 9 . . . . . 
-. . . . . 9 9 9 1 9 9 . . . . . 
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . . 1 1 1 1 . . . . . . 
-. . . . . . f . . f . . . . . . 
-. . . . . . f . . f . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image5":
-            case "CloudGirl":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . 1 1 1 . . 1 1 1 . . . . 
-. . . . 1 1 1 1 1 1 1 1 . . . . 
-. . . . 1 1 1 1 1 1 1 1 . . . . 
-. . . . . 1 9 d d 9 1 . . . . . 
-. . . . 1 1 6 d d 6 1 1 . . . . 
-. . . . . 9 9 9 9 9 9 . . . . . 
-. . . . . 9 9 9 5 9 9 . . . . . 
-. . . . . 9 9 9 1 9 9 . . . . . 
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . . 1 1 1 1 . . . . . . 
-. . . . . . f . . f . . . . . . 
-. . . . . . f . . f . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image2":
-            case "BackupDoNotUse":return img`
-. . . 5 5 5 5 5 5 . . . . . . . 
-. . 5 5 5 5 5 . . . . . . . . . 
-. 5 5 5 5 5 . . . . . . . . . . 
-5 5 5 5 8 8 8 8 8 . . . . . . . 
-5 5 5 5 8 5 8 8 8 8 . . . . . . 
-5 5 5 8 8 8 d d 1 8 . . . . . . 
-5 5 8 8 8 5 d d 5 . . . . . . . 
-5 8 8 8 8 b d d b . . . . . . . 
-5 8 8 8 c c c c c c . . . . . 5 
-8 8 8 5 c c c c c c . . . . 5 5 
-8 8 5 5 b b c c c c . . . 5 5 5 
-5 8 5 5 d b b b c c c 5 5 5 5 5 
-5 5 8 5 5 d d b b b b 5 5 5 5 . 
-. 5 5 5 5 5 d d d d d 5 5 5 5 . 
-. . 5 5 5 5 5 1 1 1 1 5 5 . . . 
-. . . 5 5 5 5 5 5 5 5 . . . . . 
-`;
             case "image8":
             case "Moon":return img`
 . . . 5 5 5 5 5 5 . . . . . . . 
@@ -367,6 +310,88 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 . . . . . . d d d d d . . . . . 
 . . . . . . . 1 1 1 1 . . . . . 
 . . . . . . . . . . . . . . . . 
+`;
+            case "image5":
+            case "CloudGirl":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 1 1 1 . . 1 1 1 . . . . 
+. . . . 1 1 1 1 1 1 1 1 . . . . 
+. . . . 1 1 1 1 1 1 1 1 . . . . 
+. . . . . 1 9 d d 9 1 . . . . . 
+. . . . 1 1 6 d d 6 1 1 . . . . 
+. . . . . 9 9 9 9 9 9 . . . . . 
+. . . . . 9 9 9 5 9 9 . . . . . 
+. . . . . 9 9 9 1 9 9 . . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 . . . . . . 
+. . . . . . f . . f . . . . . . 
+. . . . . . f . . f . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image7":
+            case "CloudGuy":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 1 1 1 1 . . . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . 1 9 d d 9 1 . . . . . 
+. . . . . . 6 d d 6 . . . . . . 
+. . . . . 9 9 9 9 9 9 . . . . . 
+. . . . . 9 9 9 5 9 9 . . . . . 
+. . . . . 9 9 9 1 9 9 . . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 . . . . . . 
+. . . . . . f . . f . . . . . . 
+. . . . . . f . . f . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image3":
+            case "stairsagainwow":return img`
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+......d11111111d......
+......bddddddddb......
+`;
+            case "image2":
+            case "BackupDoNotUse":return img`
+. . . 5 5 5 5 5 5 . . . . . . . 
+. . 5 5 5 5 5 . . . . . . . . . 
+. 5 5 5 5 5 . . . . . . . . . . 
+5 5 5 5 8 8 8 8 8 . . . . . . . 
+5 5 5 5 8 5 8 8 8 8 . . . . . . 
+5 5 5 8 8 8 d d 1 8 . . . . . . 
+5 5 8 8 8 5 d d 5 . . . . . . . 
+5 8 8 8 8 b d d b . . . . . . . 
+5 8 8 8 c c c c c c . . . . . 5 
+8 8 8 5 c c c c c c . . . . 5 5 
+8 8 5 5 b b c c c c . . . 5 5 5 
+5 8 5 5 d b b b c c c 5 5 5 5 5 
+5 5 8 5 5 d d b b b b 5 5 5 5 . 
+. 5 5 5 5 5 d d d d d 5 5 5 5 . 
+. . 5 5 5 5 5 1 1 1 1 5 5 . . . 
+. . . 5 5 5 5 5 5 5 5 . . . . . 
 `;
         }
         return null;
